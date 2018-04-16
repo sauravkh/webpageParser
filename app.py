@@ -12,7 +12,6 @@ import time
 
 ''' 
 author : Saurav Kharb
-Last Modified : 4/9/18
 
 '''
 
@@ -118,7 +117,7 @@ def setupSelenium(url):
     worksheet.write(1,0, title);
     worksheet.write(1,1, num);
     worksheet.write(1,2, averageRating);
-    
+
     rowCount = 1;
     for url in urls:
         worksheet.write(rowCount,3, url);
